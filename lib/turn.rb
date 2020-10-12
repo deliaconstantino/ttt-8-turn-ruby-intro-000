@@ -44,8 +44,8 @@ def turn(board)
   index = input_to_index(number)
   valid_move = valid_move?(board, index)
   if valid_move == true
-    move
+    move(board, index, value = "X")
   else
-    turn
+    turn(board)
   end
 end
