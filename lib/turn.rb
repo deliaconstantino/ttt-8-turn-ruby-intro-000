@@ -41,5 +41,5 @@ end
 def turn(board)
   if index != [0,8]
   puts "Please enter 1-9:"
-
+  gets.strip
 end
